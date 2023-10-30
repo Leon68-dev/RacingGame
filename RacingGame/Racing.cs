@@ -103,14 +103,14 @@ namespace RacingGame
             {
                 this.picEnemy1.Top = -140;
                 Random random = new Random();
-                this.picEnemy1.Left = random.Next(110, 280);
+                this.picEnemy1.Left = random.Next(110, 270);
             }                
 
             if (this.picEnemy2.Top >= 650)
             {
                 this.picEnemy2.Top = -440;
                 Random random = new Random();
-                this.picEnemy2.Left = random.Next(320, 490);
+                this.picEnemy2.Left = random.Next(320, 480);
             }
 
             if(this.picCar.Bounds.IntersectsWith(this.picEnemy1.Bounds) ||
