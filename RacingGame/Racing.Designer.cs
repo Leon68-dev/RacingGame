@@ -61,9 +61,9 @@
             // 
             this.picCar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.picCar.Image = ((System.Drawing.Image)(resources.GetObject("picCar.Image")));
-            this.picCar.Location = new System.Drawing.Point(380, 506);
+            this.picCar.Location = new System.Drawing.Point(387, 526);
             this.picCar.Name = "picCar";
-            this.picCar.Size = new System.Drawing.Size(80, 128);
+            this.picCar.Size = new System.Drawing.Size(60, 100);
             this.picCar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCar.TabIndex = 1;
             this.picCar.TabStop = false;
@@ -71,7 +71,7 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 15;
+            this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // picHighwayBack
@@ -91,7 +91,7 @@
             this.picEnemy1.Image = ((System.Drawing.Image)(resources.GetObject("picEnemy1.Image")));
             this.picEnemy1.Location = new System.Drawing.Point(215, -140);
             this.picEnemy1.Name = "picEnemy1";
-            this.picEnemy1.Size = new System.Drawing.Size(80, 128);
+            this.picEnemy1.Size = new System.Drawing.Size(60, 100);
             this.picEnemy1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy1.TabIndex = 3;
             this.picEnemy1.TabStop = false;
@@ -102,7 +102,7 @@
             this.picEnemy2.Image = ((System.Drawing.Image)(resources.GetObject("picEnemy2.Image")));
             this.picEnemy2.Location = new System.Drawing.Point(495, -440);
             this.picEnemy2.Name = "picEnemy2";
-            this.picEnemy2.Size = new System.Drawing.Size(80, 128);
+            this.picEnemy2.Size = new System.Drawing.Size(60, 100);
             this.picEnemy2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy2.TabIndex = 4;
             this.picEnemy2.TabStop = false;
