@@ -16,7 +16,7 @@ namespace RacingGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Racing());
+            Application.Run(new FRacing());
         }
     }
 }

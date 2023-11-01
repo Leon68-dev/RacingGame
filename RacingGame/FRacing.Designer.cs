@@ -1,6 +1,6 @@
 ﻿namespace RacingGame
 {
-    partial class Racing
+    partial class FRacing
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Racing));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRacing));
             this.picHighway = new System.Windows.Forms.PictureBox();
             this.picCar = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -138,7 +138,7 @@
             this.lblLevel.TabIndex = 7;
             this.lblLevel.Text = "0";
             // 
-            // Racing
+            // FRacing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -153,9 +153,11 @@
             this.Controls.Add(this.picHighwayBack);
             this.Controls.Add(this.picHighway);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Racing";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FRacing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Racing";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace RacingGame
 {
-    public partial class Racing : Form
+    public partial class FRacing : Form
     {
         private Point point;
         private bool dragging;
@@ -20,7 +20,7 @@ namespace RacingGame
         private int speedEnemy;
         private int levelGame = 1;
 
-        public Racing()
+        public FRacing()
         {
             InitializeComponent();
 
